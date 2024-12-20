@@ -45,7 +45,7 @@ telegram_business_bot/
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/telegram-business-bot.git
+git clone https://github.com/omkarRanu3625/telegram_business_bot.git
 cd telegram-business-bot
 
 ## Create and activate a virtual environment:
