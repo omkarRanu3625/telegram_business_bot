@@ -48,42 +48,54 @@ Clone this repository to your local machine:
 git clone https://github.com/yourusername/telegram-business-bot.git
 cd telegram-business-bot
 
-## Create and activate a virtual environment:
+```
+
+Create and activate a virtual environment:
 
 ```bash
 
 python -m virtualvenv envBot
 source envBot/bin/activate  # On Windows use 'envBot\Scripts\activate'
 
+```
 
-## Step 3: Install Dependencies
-## nstall the required dependencies from requirements.txt:
+
+### Step 3: Install Dependencies
+Install the required dependencies from requirements.txt:
 
 ```bash
 
 pip install -r requirements.txt
 
-
-## Step 4: Set Up Telegram Bot
-  Go to BotFather on Telegram and create a new bot.
-  Copy the bot token provided by BotFather.
-  Replace YOUR_TELEGRAM_BOT_TOKEN in main.py with your bot's token.
+```
 
 
-``` # Step 5: Run the Bot
+### Step 4: Set Up Telegram Bot
+
+-Go to BotFather on Telegram and create a new bot.
+-Copy the bot token provided by BotFather.
+-Replace YOUR_TELEGRAM_BOT_TOKEN in main.py with your bot's token.
+
+
+### Step 5: Run the Bot
 Once the environment is set up, you can run the bot:
 
-    python main.py  
+```bash
+  python main.py  
 
-
+```  
+---
+ 
 ## How the Bot Works
-1. Start the Conversation: When a user starts the conversation with the bot, they will be prompted to provide details about their business, such as industry, business objectives, website, social media, etc.
 
-2. Keyword Generation: Based on the provided inputs, the bot will generate industry-specific keywords relevant to the user's business.
+|- **1. Start the Conversation:** When a user starts the conversation with the bot, they will be prompted to provide details about their business, such as industry, business objectives, website, social media, etc.
+- **2. Keyword Generation:** Based on the provided inputs, the bot will generate industry-specific keywords relevant to the user's business.
 
-3. PPC Trends: The user can request information about the latest industry trends, including cost-per-click (CPC) benchmarks, by typing /ppc_trends.
+- **3. PPC Trends:** The user can request information about the latest industry trends, including cost-per-click (CPC) benchmarks, by typing /ppc_trends.
 
-4. AI FAQ: The bot also has an AI-powered FAQ system where users can ask digital marketing-related questions, and the bot will provide answers based on best practices and AI insights.
+- **4. AI FAQ:** The bot also has an AI-powered FAQ system where users can ask digital marketing-related questions, and the bot will provide answers based on best practices and AI insights.
+
+---
 
 ## Example Usage
  1. Start the Bot: /start
@@ -95,4 +107,4 @@ Once the environment is set up, you can run the bot:
 Contributing
  6. Feel free to fork this repository, submit pull requests, or report issues. Contributions are welcome!
 
-
+---
