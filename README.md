@@ -27,7 +27,7 @@ A Telegram bot designed to help businesses analyze their data, predict future tr
 - Dependencies listed in `requirements.txt`
 
 ## Project Structure
-
+```bash
 telegram_business_bot/ 
 ├── main.py                  # Main bot logic 
 ├── requirements.txt         # Python dependencies 
@@ -36,7 +36,7 @@ telegram_business_bot/
 ├── ai_faq_system.py         # AI-based FAQ system for digital marketers 
 ├── envBot/                  # Virtual environment folder 
 └── data/                    # Pre-defined keyword dataset, benchmark data
-
+```
 
 ## Installation
 
